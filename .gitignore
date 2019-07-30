@@ -34,3 +34,18 @@ vignettes/*.pdf
 
 # Shiny token, see https://shiny.rstudio.com/articles/shinyapps.html
 rsconnect/
+.Rproj.user
+
+# rproj
+*.Rproj
+
+# downloadable or large data
+input/full_panel.RData
+input/panel.RData
+input/oecd
+
+# output
+output/
+
+
+
