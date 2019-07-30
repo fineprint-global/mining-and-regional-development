@@ -34,9 +34,9 @@ rho_accept = 0 # counter for rho acceptance rates
 
 ### set-up the gibbs sampler
 # total number of draws
-niter = 2000
+niter = 20000
 # retain only S2 and discard S1, with S = S1 + S2
-nretain = 1000
+nretain = 10000
 ndiscard = niter - nretain
 # save the posterior draws here
 postb = matrix(0,k,nretain)
