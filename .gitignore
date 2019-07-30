@@ -36,7 +36,13 @@ vignettes/*.pdf
 rsconnect/
 .Rproj.user
 
+# downloadable or large data
+input/full_panel.RData
+input/panel.RData
+input/oecd
+
 # output
 output/
-input/oecd
+
+
 
